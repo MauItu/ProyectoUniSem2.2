@@ -16,7 +16,7 @@ public class BotonGeneral : MonoBehaviour
         
         if(EsPreguntaFinal)
         {
-            controlador.EvaluarPuntosYCambiarEscena(ControlPuntos.Puntos, nombreNivel);
+            controlador.EvaluarPuntosYCambiarEscena(ControlPuntos.Puntos);
         }
 
         else if(ReiniciarPuntaje)
