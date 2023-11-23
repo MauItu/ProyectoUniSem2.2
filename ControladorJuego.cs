@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ControladorJuego : MonoBehaviour
 {
-    public static void EvaluarPuntosYCambiarEscena(int puntos, string nombreNivel)
+    public static void EvaluarPuntosYCambiarEscena(int puntos)
     {
         if (puntos >= 30)
         {
