@@ -14,7 +14,7 @@ public class BotonGanador : MonoBehaviour
         
         if(EsPreguntaFinal)
         {
-            controlador.EvaluarPuntosYCambiarEscena(ControlPuntos.Puntos, nombreNivel);
+            controlador.EvaluarPuntosYCambiarEscena(ControlPuntos.Puntos);
         }
 
         else
