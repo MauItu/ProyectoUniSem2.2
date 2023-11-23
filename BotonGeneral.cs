@@ -16,14 +16,7 @@ public class BotonGeneral : MonoBehaviour
         
         if(EsPreguntaFinal)
         {
-            if (ControlPuntos.Puntos >= 30)
-            {
-                controlador.CargarScena(nombreNivel);
-            }
-            else
-            {
-                controlador.CargarScena(nombreNivel);
-            }
+            controlador.EvaluarPuntosYCambiarEscena(ControlPuntos.Puntos, nombreNivel);
         }
 
         else if(ReiniciarPuntaje)
